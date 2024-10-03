@@ -1,0 +1,1141 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-10-03T22:54:56.558Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "example@example.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u043c\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-10-03T22:55:36.551Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "example@example.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0430\\u043c\\u0438\\u043b\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-10-03T22:56:16.771Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "example@example.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u043c\\u044f\", \"\\u0424\\u0430\\u043c\\u0438\\u043b\\u0438\\u044f\", \"\\u041e\\u0442\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e\", \"\\u0421\\u0442\\u0440\\u0430\\u043d\\u0430\", \"\\u0422\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-10-03T22:58:11.760Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "testuser@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-10-03T23:00:03.632Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "testuser1@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-10-03T23:00:11.207Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "testuser2@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-10-03T23:00:13.907Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "testuser@gmail.com",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-10-03T23:00:17.833Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "testuser1@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-10-03T23:00:47.747Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "testuser2@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-10-03T23:09:15.146Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "19",
+      "object_repr": "Наушники JBL",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u0432\\u044b\\u0445\\u043e\\u0434\\u0430 \\u043d\\u0430 \\u0440\\u044b\\u043d\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-10-03T23:09:25.334Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "19",
+      "object_repr": "Наушники JBL",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u0432\\u044b\\u0445\\u043e\\u0434\\u0430 \\u043d\\u0430 \\u0440\\u044b\\u043d\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-10-03T23:09:32.347Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "17",
+      "object_repr": "Наушники JBL",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u0432\\u044b\\u0445\\u043e\\u0434\\u0430 \\u043d\\u0430 \\u0440\\u044b\\u043d\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-10-03T23:14:16.724Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Наушники JBL",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u0432\\u044b\\u0445\\u043e\\u0434\\u0430 \\u043d\\u0430 \\u0440\\u044b\\u043d\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-10-03T23:14:22.511Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Наушники JBL",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u0432\\u044b\\u0445\\u043e\\u0434\\u0430 \\u043d\\u0430 \\u0440\\u044b\\u043d\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-10-03T23:21:29.711Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Distributor - Дистрибьютор электроники, уровень в иерархии - 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043e\\u0442\\u0440\\u0443\\u0434\\u043d\\u0438\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-10-03T23:25:15.509Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "user_test@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-10-03T23:25:19.705Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "6",
+      "object_repr": "user_test2@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-10-03T23:34:01.899Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "RetailNetwork - Розничная продажа ноутбуков, уровень в иерархии - 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0441\\u0442\\u0430\\u0432\\u0449\\u0438\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add Пользователь",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change Пользователь",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete Пользователь",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view Пользователь",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add продукт",
+      "content_type": 7,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change продукт",
+      "content_type": 7,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete продукт",
+      "content_type": 7,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view продукт",
+      "content_type": 7,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add сеть",
+      "content_type": 8,
+      "codename": "add_network"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change сеть",
+      "content_type": 8,
+      "codename": "change_network"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete сеть",
+      "content_type": 8,
+      "codename": "delete_network"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view сеть",
+      "content_type": 8,
+      "codename": "view_network"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "products",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "trading_networks",
+      "model": "network"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "tofjmlaxgkxzycccpqh1tdkns4hy156i",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-JP5Q0nMGa73rxQHkSHFSIe4OkVJA-2bmvUSCba1p62VJE4mz0OL0u2XAR2k7oDu02yxxbusyZbkr8qBdXmcqz8vh_h1U6PVbG81AiC6z1oYtg0eOmbyP6IOiwQ1OBW8iswVQhWBUYww25oCWtYni_QEFNDhB:1swUhf:KK2w4Q_xtRfuHW9JViKhVwBYvYih0VK0a0LOH7AkoO8",
+      "expire_date": "2024-10-17T22:53:47.257Z"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$wx5XwtHVICSQwnDkPL9xrP$RzBcljWugmGe+b1+WDp/mWG+UNuwi40pE3+KOUBO4bY=",
+      "last_login": "2024-10-03T22:53:47Z",
+      "is_superuser": true,
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-10-03T22:53:25Z",
+      "email": "example@example.com",
+      "first_name": "Петр",
+      "last_name": "Петров",
+      "patronymic_name": "Суперпользователь",
+      "country": "Беларусь",
+      "phone": "+375331234567",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$m1ZCCNgeZ4KMLPAxVjHfKM$0p1DUmU2uFRSk4caBnB9iES+F5GOa8bFHizMdN+B0Jo=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-10-03T22:58:00Z",
+      "email": "testuser@gmail.com",
+      "first_name": "Иван",
+      "last_name": "Иванов",
+      "patronymic_name": "Иванович",
+      "country": "Беларусь",
+      "phone": "+375331234567",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$M9mj7NxblYF6tiyx5ZPhtT$BFgk+zV88I8jakDAaCh5B7FPcYnIWq01Ugs4EdspFLI=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-10-03T22:58:42Z",
+      "email": "testuser1@gmail.com",
+      "first_name": "Василий",
+      "last_name": "Иванов",
+      "patronymic_name": "Иванович",
+      "country": "Россия",
+      "phone": "+79102345678",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$OmPh27NA3FdxLyGzZXpsye$uE4Tz1O13KZcmYY9ZsIfGdAmskNR+y/vjdiNjdpVa/s=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-10-03T22:59:53Z",
+      "email": "testuser2@gmail.com",
+      "first_name": "Петр",
+      "last_name": "Петров",
+      "patronymic_name": "Петрович",
+      "country": "Беларусь",
+      "phone": "+375291234567",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$6K9FWYlDpvnZzMxYsOZUvc$WR8Xe3kPUPprMtT8A6lSM9Sz1iEh9T+uXPOb8xuRS30=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-10-03T23:24:01Z",
+      "email": "user_test@gmail.com",
+      "first_name": "Ivan",
+      "last_name": "Ivanov",
+      "patronymic_name": null,
+      "country": "Belarus",
+      "phone": "+375331234567",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$xGNvLicHoIZbncMfbbgHZo$pzpUKnnmoWg6pXb0oLEKjhaUUoBLMQzMgLPLiq6++k8=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-10-03T23:24:49Z",
+      "email": "user_test2@gmail.com",
+      "first_name": "Petr",
+      "last_name": "Petrov",
+      "patronymic_name": null,
+      "country": "Belarus",
+      "phone": "+375331234567",
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "product_name": "Iphone",
+      "product_model": "12",
+      "date_release": "2020-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "product_name": "Iphone",
+      "product_model": "13",
+      "date_release": "2021-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "product_name": "Iphone",
+      "product_model": "14 Pro",
+      "date_release": "2024-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "product_name": "MacBook",
+      "product_model": "Air",
+      "date_release": "2019-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "product_name": "Xiaomi MiBand",
+      "product_model": "5",
+      "date_release": "2019-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "product_name": "Apple Watch",
+      "product_model": "SE 2gen",
+      "date_release": "2021-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "product_name": "Ноутбук Lenovo",
+      "product_model": "IdeaPad5",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "product_name": "Ноутбук Lenovo",
+      "product_model": "IdeaPad3",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "product_name": "Ноутбук Asus",
+      "product_model": "Pro 2",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "product_name": "Ноутбук Asus",
+      "product_model": "Pro Air 7",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "product_name": "Ноутбук Xiaomi",
+      "product_model": "1 версия",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "product_name": "Ноутбук Xiaomi",
+      "product_model": "2 версия",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "product_name": "Ноутбук Xiaomi",
+      "product_model": "3 версия",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "product_name": "Ноутбук Xiaomi",
+      "product_model": "4 версия",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+      "product_name": "Ноутбук Xiaomi",
+      "product_model": "5 версия",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+      "product_name": "Наушники JBL",
+      "product_model": "1 version",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+      "product_name": "Наушники JBL",
+      "product_model": "2 version",
+      "date_release": "2024-10-02"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+      "product_name": "Наушники JBL",
+      "product_model": "black version",
+      "date_release": "2022-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+      "product_name": "Наушники JBL",
+      "product_model": "gold version",
+      "date_release": "2021-10-13"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+      "product_name": "Наушники JBL",
+      "product_model": "sport edit",
+      "date_release": "2023-10-03"
+    }
+  },
+  {
+    "model": "trading_networks.network",
+    "pk": 1,
+    "fields": {
+      "network_type": "Factory",
+      "network_level": 0,
+      "network_name": "Завод электроники",
+      "email": "factory_electronics@gmail.com",
+      "country": "Беларусь",
+      "city": "Минск",
+      "street": "Каховская",
+      "house_number": "132",
+      "supplier": null,
+      "debt": "0.00",
+      "created_at": "2024-10-03T23:15:51.696Z",
+      "products": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "employees": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "trading_networks.network",
+    "pk": 2,
+    "fields": {
+      "network_type": "Distributor",
+      "network_level": 1,
+      "network_name": "Дистрибьютор электроники",
+      "email": "distributor_electronics@gmail.com",
+      "country": "Беларусь",
+      "city": "Минск",
+      "street": "Пр-т Пушкина",
+      "house_number": "14",
+      "supplier": 1,
+      "debt": "200.00",
+      "created_at": "2024-10-03T23:17:13.298Z",
+      "products": [
+        1,
+        2,
+        3,
+        4,
+        12,
+        13
+      ],
+      "employees": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "trading_networks.network",
+    "pk": 3,
+    "fields": {
+      "network_type": "DealerCenter",
+      "network_level": 2,
+      "network_name": "Дилерский центр электроники",
+      "email": "dealer_electronics@gmail.com",
+      "country": "Беларусь",
+      "city": "Минск",
+      "street": "Червякова",
+      "house_number": "21",
+      "supplier": 2,
+      "debt": "1200.00",
+      "created_at": "2024-10-03T23:20:28.314Z",
+      "products": [
+        1,
+        2,
+        3,
+        4,
+        12,
+        13,
+        18,
+        19,
+        17
+      ],
+      "employees": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "trading_networks.network",
+    "pk": 4,
+    "fields": {
+      "network_type": "RetailNetwork",
+      "network_level": 3,
+      "network_name": "Розничная сеть электроники",
+      "email": "retail_network@gmail.com",
+      "country": "Беларусь",
+      "city": "Минск",
+      "street": "Одоевского",
+      "house_number": "250",
+      "supplier": 3,
+      "debt": "200.00",
+      "created_at": "2024-10-03T23:26:44.365Z",
+      "products": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        12,
+        13,
+        18,
+        19,
+        17
+      ],
+      "employees": []
+    }
+  },
+  {
+    "model": "trading_networks.network",
+    "pk": 5,
+    "fields": {
+      "network_type": "IndividualBusinessman",
+      "network_level": 4,
+      "network_name": "ИП магазин электроники",
+      "email": "individual_businessman@gmail.com",
+      "country": "Беларусь",
+      "city": "Минск",
+      "street": "Одоевского",
+      "house_number": "250",
+      "supplier": 4,
+      "debt": "200.00",
+      "created_at": "2024-10-03T23:29:45.392Z",
+      "products": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        19,
+        17,
+        20
+      ],
+      "employees": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "trading_networks.network",
+    "pk": 6,
+    "fields": {
+      "network_type": "Factory",
+      "network_level": 0,
+      "network_name": "Завод ноутбуков",
+      "email": "test_mail@gmail.com",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Центральная",
+      "house_number": "5",
+      "supplier": null,
+      "debt": "0.00",
+      "created_at": "2024-10-03T23:32:48.389Z",
+      "products": [
+        9,
+        10,
+        11
+      ],
+      "employees": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "trading_networks.network",
+    "pk": 7,
+    "fields": {
+      "network_type": "RetailNetwork",
+      "network_level": 1,
+      "network_name": "Розничная продажа ноутбуков",
+      "email": "test_mail2@gmail.com",
+      "country": "Россия",
+      "city": "Пенза",
+      "street": "Центральная",
+      "house_number": "21",
+      "supplier": 6,
+      "debt": "20.00",
+      "created_at": "2024-10-03T23:33:41.761Z",
+      "products": [
+        9,
+        10,
+        11
+      ],
+      "employees": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "trading_networks.network",
+    "pk": 8,
+    "fields": {
+      "network_type": "IndividualBusinessman",
+      "network_level": 2,
+      "network_name": "ИП продажа ноутбуков",
+      "email": "indb_testmail@gmail.com",
+      "country": "Беларусь",
+      "city": "Гродно",
+      "street": "Советская",
+      "house_number": "100",
+      "supplier": 7,
+      "debt": "50.00",
+      "created_at": "2024-10-03T23:35:10.443Z",
+      "products": [
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "employees": []
+    }
+  }
+]

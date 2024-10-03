@@ -1,0 +1,60 @@
+services:
+
+  db:
+    image: postgres
+    env_file: .env
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - pg_data:/var/lib/postgresql/pgdata
+    ports:
+      - '5435:5432'
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -q -d ${DB_NAME} -U ${DB_USER}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+    restart: unless-stopped
+
+  redis:
+    image: redis
+    restart: unless-stopped
+    env_file: .env
+
+  app:
+    env_file: .env
+    build: .
+    tty: true
+    command: >
+      bash -c "python3 manage.py migrate && python3 manage.py loaddata trading_network_data && python3 manage.py runserver 0.0.0.0:8000"
+    restart: always
+    ports:
+      - '8000:8000'
+    depends_on:
+      db:
+        condition: service_healthy
+
+  celery:
+    build: .
+    tty: true
+    command: celery -A config worker -l INFO
+    depends_on:
+      - redis
+      - app
+      - db
+
+  celery_beat:
+    build: .
+    tty: true
+    command: celery -A config beat -l INFO
+    depends_on:
+      - redis
+      - app
+      - db
+      - celery
+
+volumes:
+  pg_data:
