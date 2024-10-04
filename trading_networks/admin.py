@@ -26,7 +26,7 @@ class NetworkAdmin(admin.ModelAdmin):
     - clear_debt(self, request, queryset): Очищает задолженность для выбранных сетей. Если выбрано более 20 сетей,
     задолженность очищается асинхронно.
     """
-    list_display = ('pk', 'network_type', 'network_name', 'email', 'city', 'debt', 'created_at', 'supplier_link')
+    list_display = ('pk', 'network_type', 'network_name', 'email', 'copy_email', 'city', 'debt', 'created_at', 'supplier_link')
     list_filter = ('city',)
     readonly_fields = ('network_level',)
     search_fields = ('network_name', 'city', 'supplier__network_name')
@@ -66,5 +66,22 @@ class NetworkAdmin(admin.ModelAdmin):
 
     clear_debt.short_description = 'Очистить задолженность перед поставщиком'
 
+    def copy_email(self, obj):
+        """
+        Создает кнопку для копирования электронной почты.
+        """
+        return format_html(
+            '<button class="copy-email-btn" data-email="{}">Копировать</button>',
+            obj.email
+        )
+
+    copy_email.short_description = 'скопировать почту'
+    copy_email.allow_tags = True
+
+    class Media:
+        js = ('admin/js/copy_email.js',)
+        css = {
+            'all': ('admin/css/custom_admin_styles.css',)
+        }
 
 admin.site.register(Network, NetworkAdmin)
